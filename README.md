@@ -12,6 +12,7 @@
 | DirectX Agility SDK（D3D12Core.dll） | Microsoft | 見 Licenses/DirectX_LICENSE.txt |
 | dlssg-to-fsr3（Nukem） | https://github.com/Nukem9/dlssg-to-fsr3 | GPL-3.0 |
 | OptiPatcher | https://github.com/optiscaler/OptiPatcher | MIT |
+| REFramework（只有 Capcom RE 引擎遊戲安裝時才下載，不在安裝包內） | https://github.com/praydog/REFramework-nightly | MIT |
 | DLSS Enabler（Arturs） | https://www.nexusmods.com/site/mods/757 | 作者未公開散布條款（授權不明） |
 | XeFGUnlock 1.1.4 | 隨社群版 OptiScaler 套件流傳 | 作者與授權不明 |
 | NVIDIA Streamline／DLSS 執行檔 | NVIDIA Streamline SDK | NVIDIA 授權（用於模組時有爭議） |
@@ -21,7 +22,8 @@
 
 ## 不包含：DLSS5 runtime 與權重
 社群版 DLSS5 的 AMD runtime 是 Daniel Blanco 的作品（https://github.com/danielblnc/DLSS-NR-on-AMD），授權禁止放進其他工具或安裝包；
-權重必須用你自己的 NVIDIA nvngx_dlssnr.dll（支援 DLSS 5 的遊戲內附）轉換。請在工具上方按「DLSS5 未設定」，依三個步驟從官方取得後匯入。
+權重必須用你自己的 NVIDIA nvngx_dlssnr.dll（支援 DLSS 5 的遊戲內附）轉換。請在工具上方按「DLSS5 未設定」，按「下載 Daniel 安裝程式」
+從他的官方 GitHub 下載到「下載」資料夾，工具偵測到後會自動完成安裝與匯入（會自動搜尋你電腦裡的 nvngx_dlssnr.dll）。
 未設定前，工具照樣能安裝 FSR 4.1.1 與補幀。
 
 ## 更新
