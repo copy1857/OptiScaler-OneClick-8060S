@@ -1,0 +1,33 @@
+# Instant reply to [診斷回報] issues with the tool's own rules (diag_rules.py). Reports the rules cannot fully explain
+# get the label 需深入分析, which the scheduled deep analysis picks up. Source of truth: the tool repository's
+# github-bot/ folder, published by scripts/sync_github_bot.py.
+name: 診斷回報自動判斷
+on:
+  issues:
+    types: [opened, edited]
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: 要重新判斷的 issue 編號
+        required: true
+permissions:
+  issues: write
+  contents: read
+concurrency:
+  group: diagnose-${{ github.event.issue.number || inputs.issue }}
+  cancel-in-progress: true
+jobs:
+  diagnose:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.title, '[診斷回報]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 判斷並回覆
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || inputs.issue }}
+        run: python .github/diagnose/analyze_issue.py
