@@ -1,18 +1,22 @@
 # 授權與來源（請先閱讀）
 
 這是個人製作的測試工具，僅供少數熟人測試，**不是任何廠商的官方產品**，在 AMD Radeon 8060S 上實測，其他顯卡未驗證。
-使用前請先退出遊戲；不要用在有反作弊的線上遊戲。所有變更都會備份，可用「還原」復原。
+使用前請先退出遊戲。有反作弊的線上遊戲（例如 Battle.net 遊戲）裝外掛可能被封鎖帳號，工具會先要求同意免責聲明，風險由使用者自行承擔；EasyAntiCheat／BattlEye 的遊戲不提供安裝。所有變更都會備份，可用「還原」復原。
 
 ## 內含元件
 | 元件 | 來源 | 授權 |
 |---|---|---|
-| OptiScaler（TheAutomatic/dlss-5-amd-project 1.9.9.1 版本體） | https://github.com/TheAutomatic/dlss-5-amd-project ／ 上游 https://github.com/optiscaler/OptiScaler | GPL-3.0（見 Licenses/OptiScaler_LICENSE.txt，原始碼見上列網址） |
+| OptiScaler（TheAutomatic/dlss-5-amd-project 1.10.0 版本體） | https://github.com/TheAutomatic/dlss-5-amd-project ／ 上游 https://github.com/optiscaler/OptiScaler | GPL-3.0（見 Licenses/OptiScaler_LICENSE.txt，原始碼見上列網址） |
 | AMD FidelityFX（FSR 4.1.1） | AMD GPUOpen | 見 Licenses/FidelityFX_*_LICENSE.md |
 | Intel XeSS／XeFG／XeLL | Intel | 見 Licenses/XeSS_LICENSE.txt |
 | DirectX Agility SDK（D3D12Core.dll） | Microsoft | 見 Licenses/DirectX_LICENSE.txt |
 | dlssg-to-fsr3（Nukem） | https://github.com/Nukem9/dlssg-to-fsr3 | GPL-3.0 |
 | OptiPatcher | https://github.com/optiscaler/OptiPatcher | MIT |
 | REFramework（只有 Capcom RE 引擎遊戲安裝時才下載，不在安裝包內） | https://github.com/praydog/REFramework-nightly | MIT |
+| Luma（只有原生沒有升頻、Luma 相容表列為可用的遊戲安裝時才下載，不在安裝包內） | https://github.com/Filoppi/Luma-Framework（作者 Filippo Tarpini 等） | Custom MIT（需標示作者，商業用途須先取得授權） |
+| Luma 相容表（luma_games.json，由 Luma wiki 整理並加上本機實測結果） | https://github.com/Filoppi/Luma-Framework/wiki | 依 Luma 專案 |
+| Arise-SDK（只有 Tales of Arise 走 Luma 方案時才下載，不在安裝包內） | https://github.com/emoose/Arise-SDK | GPL-3.0 |
+| PresentMon（只有按「測量效能」時才下載，不在安裝包內） | https://github.com/GameTechDev/PresentMon | MIT |
 | DLSS Enabler（Arturs） | https://www.nexusmods.com/site/mods/757 | 作者未公開散布條款（授權不明） |
 | XeFGUnlock 1.1.4 | 隨社群版 OptiScaler 套件流傳 | 作者與授權不明 |
 | NVIDIA Streamline／DLSS 執行檔 | NVIDIA Streamline SDK | NVIDIA 授權（用於模組時有爭議） |
