@@ -7,6 +7,7 @@
 | 元件 | 來源 | 授權 |
 |---|---|---|
 | OptiScaler（TheAutomatic/dlss-5-amd-project 1.10.0 版本體） | https://github.com/TheAutomatic/dlss-5-amd-project ／ 上游 https://github.com/optiscaler/OptiScaler | GPL-3.0（見 Licenses/OptiScaler_LICENSE.txt，原始碼見上列網址） |
+| OptiScaler 0.9.4 官方簽章版（SignPath Foundation 簽章；只給只載入簽章 DLL 的遊戲：Diablo II: Resurrected、Diablo IV） | https://github.com/optiscaler/OptiScaler/releases/tag/v0.9.4（Optiscaler_0.9.4-final.20260718._MM.7z，sha256 575cb4df866116093df75af607e37fd70e10f5163e0f23fd5c804142e80ef0ad；只取出 OptiScaler.dll 與 OptiScaler.ini，未修改） | GPL-3.0（見 Licenses/OptiScaler_LICENSE.txt） |
 | AMD FidelityFX（FSR 4.1.1） | AMD GPUOpen | 見 Licenses/FidelityFX_*_LICENSE.md |
 | Intel XeSS／XeFG／XeLL | Intel | 見 Licenses/XeSS_LICENSE.txt |
 | DirectX Agility SDK（D3D12Core.dll） | Microsoft | 見 Licenses/DirectX_LICENSE.txt |
