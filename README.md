@@ -27,7 +27,7 @@
 
 ## 不包含：DLSS5 runtime 與權重
 社群版 DLSS5 的 AMD runtime 是 Daniel Blanco 的作品（https://github.com/danielblnc/DLSS-NR-on-AMD），授權禁止放進其他工具或安裝包；
-權重必須用你自己的 NVIDIA nvngx_dlssnr.dll（支援 DLSS 5 的遊戲內附）轉換。請在工具上方按「DLSS5 未設定」，按「下載 Daniel 安裝程式」
+權重必須用你自己的 NVIDIA nvngx_dlssnr.dll（支援 DLSS 5 的遊戲內附）轉換。請在工具右上方按「設定 DLSS5」，按「下載 Daniel 安裝程式」
 從他的官方 GitHub 下載到「下載」資料夾，工具偵測到後會自動完成安裝與匯入（會自動搜尋你電腦裡的 nvngx_dlssnr.dll）。
 未設定前，工具照樣能安裝 FSR 4.1.1 與補幀。
 
