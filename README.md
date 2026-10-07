@@ -22,6 +22,7 @@
 | XeFGUnlock 1.1.4 | 隨社群版 OptiScaler 套件流傳 | 作者與授權不明 |
 | NVIDIA Streamline／DLSS 執行檔 | NVIDIA Streamline SDK | NVIDIA 授權（用於模組時有爭議） |
 | experimental_lighting 著色器 | 社群版 DLSS5 套件 | 授權不明 |
+| Noto Sans TC 字型（fonts/NotoSansTC-VF.ttf，2.004 版，未修改；Big Picture 介面用，沒裝的電腦會自動裝到目前使用者） | Adobe／Google（Source Han Sans／Noto CJK）https://github.com/notofonts/noto-cjk | SIL Open Font License 1.1（見 fonts/OFL.txt） |
 
 授權不明的元件由發行者自行承擔風險保留，若權利人要求會移除。
 
