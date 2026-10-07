@@ -6,7 +6,7 @@
 ## 內含元件
 | 元件 | 來源 | 授權 |
 |---|---|---|
-| OptiScaler（TheAutomatic/dlss-5-amd-project 1.10.0 版本體） | https://github.com/TheAutomatic/dlss-5-amd-project ／ 上游 https://github.com/optiscaler/OptiScaler | GPL-3.0（見 Licenses/OptiScaler_LICENSE.txt，原始碼見上列網址） |
+| OptiScaler（TheAutomatic/dlss-5-amd-project 1.10.4.1 版本體） | https://github.com/TheAutomatic/dlss-5-amd-project ／ 上游 https://github.com/optiscaler/OptiScaler | GPL-3.0（見 Licenses/OptiScaler_LICENSE.txt，原始碼見上列網址） |
 | OptiScaler 0.9.4 官方簽章版（SignPath Foundation 簽章；只給只載入簽章 DLL 的遊戲：Diablo II: Resurrected、Diablo IV） | https://github.com/optiscaler/OptiScaler/releases/tag/v0.9.4（Optiscaler_0.9.4-final.20260718._MM.7z，sha256 575cb4df866116093df75af607e37fd70e10f5163e0f23fd5c804142e80ef0ad；只取出 OptiScaler.dll 與 OptiScaler.ini，未修改） | GPL-3.0（見 Licenses/OptiScaler_LICENSE.txt） |
 | AMD FidelityFX（FSR 4.1.1） | AMD GPUOpen | 見 Licenses/FidelityFX_*_LICENSE.md |
 | Intel XeSS／XeFG／XeLL | Intel | 見 Licenses/XeSS_LICENSE.txt |
@@ -17,6 +17,7 @@
 | Luma（只有原生沒有升頻、Luma 相容表列為可用的遊戲安裝時才下載，不在安裝包內） | https://github.com/Filoppi/Luma-Framework（作者 Filippo Tarpini 等） | Custom MIT（需標示作者，商業用途須先取得授權） |
 | Luma 相容表（luma_games.json，由 Luma wiki 整理並加上本機實測結果） | https://github.com/Filoppi/Luma-Framework/wiki | 依 Luma 專案 |
 | Arise-SDK（只有 Tales of Arise 走 Luma 方案時才下載，不在安裝包內） | https://github.com/emoose/Arise-SDK | GPL-3.0 |
+| Magpie FSR 4.1.1 版（A-ENTROPY/magpie-dlss5-amd v0.6.8.5-amd-rdna3，Blinue/Magpie 的分支；只有沒有升頻的遊戲第一次開始遊戲時才下載並核對 sha256，不在安裝包內） | https://github.com/A-ENTROPY/magpie-dlss5-amd ／ 上游 https://github.com/Blinue/Magpie | GPL-3.0 |
 | PresentMon（只有按「測量效能」時才下載，不在安裝包內） | https://github.com/GameTechDev/PresentMon | MIT |
 | DLSS Enabler（Arturs） | https://www.nexusmods.com/site/mods/757 | 作者未公開散布條款（授權不明） |
 | XeFGUnlock 1.1.4 | 隨社群版 OptiScaler 套件流傳 | 作者與授權不明 |
