@@ -19,6 +19,7 @@
 | Arise-SDK（只有 Tales of Arise 走 Luma 方案時才下載，不在安裝包內） | https://github.com/emoose/Arise-SDK | GPL-3.0 |
 | Magpie FSR 4.1.1 版（A-ENTROPY/magpie-dlss5-amd v0.6.8.5-amd-rdna3，Blinue/Magpie 的分支；只有沒有升頻的遊戲第一次開始遊戲時才下載並核對 sha256，不在安裝包內） | https://github.com/A-ENTROPY/magpie-dlss5-amd ／ 上游 https://github.com/Blinue/Magpie | GPL-3.0 |
 | PresentMon（只有按「測量效能」時才下載，不在安裝包內） | https://github.com/GameTechDev/PresentMon | MIT |
+| SCSKiller 著色器預編譯（scskiller/ 內官方可攜版，未修改；第一次啟動時安裝到 %LOCALAPPDATA%\SCSKiller-Portable，AURORA 只呼叫它的命令列） | https://github.com/BlueHeisenberg/SCSKiller（對應原始碼見 scskiller/原始碼與授權.md） | GPL-3.0-or-later＋附加許可（見 scskiller/LICENSE、LICENSE-EXCEPTION.txt、THIRD-PARTY-NOTICES.md） |
 | DLSS Enabler（Arturs） | https://www.nexusmods.com/site/mods/757 | 作者未公開散布條款（授權不明） |
 | XeFGUnlock 1.1.4 | 隨社群版 OptiScaler 套件流傳 | 作者與授權不明 |
 | NVIDIA Streamline／DLSS 執行檔 | NVIDIA Streamline SDK | NVIDIA 授權（用於模組時有爭議） |
