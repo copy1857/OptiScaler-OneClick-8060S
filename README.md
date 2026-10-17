@@ -24,9 +24,15 @@
 | XeFGUnlock 1.1.4 | 隨社群版 OptiScaler 套件流傳 | 作者與授權不明 |
 | NVIDIA Streamline／DLSS 執行檔 | NVIDIA Streamline SDK | NVIDIA 授權（用於模組時有爭議） |
 | experimental_lighting 著色器 | 社群版 DLSS5 套件 | 授權不明 |
+| 一鍵修改器的手把與功能圖示（trainer-art/，AI 生成的非官方示意圖；Steam Controller 2 圖由使用者提供；來源見 trainer-art/provenance.json） | 本工具製作 | 隨本工具 |
+| NumPy（修改器找數值用） | https://numpy.org | BSD-3-Clause（見 _internal/numpy-*.dist-info/licenses） |
 | Noto Sans TC 字型（fonts/NotoSansTC-VF.ttf，2.004 版，未修改；Big Picture 介面用，沒裝的電腦會自動裝到目前使用者） | Adobe／Google（Source Han Sans／Noto CJK）https://github.com/notofonts/noto-cjk | SIL Open Font License 1.1（見 fonts/OFL.txt） |
 
 授權不明的元件由發行者自行承擔風險保留，若權利人要求會移除。
+
+## 一鍵修改器（只限單機）
+修改器由本工具自己從遊戲外部讀寫記憶體，不改遊戲檔案、不注入、不碰畫面輸出；有反作弊的遊戲不提供，有線上功能的遊戲要先同意只在單機使用。修改的數值可能跟著存檔，建議先備份存檔。
+「風靈月影」修改器（https://flingtrainer.com）不在安裝包內：只有在選單打開它的開關時，才從官網下載那一款到本機，著作與授權屬原作者。
 
 ## 不包含：DLSS5 runtime 與權重
 社群版 DLSS5 的 AMD runtime 是 Daniel Blanco 的作品（https://github.com/danielblnc/DLSS-NR-on-AMD），授權禁止放進其他工具或安裝包；
