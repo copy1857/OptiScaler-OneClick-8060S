@@ -27,6 +27,9 @@
 | 一鍵修改器的手把與功能圖示（trainer-art/，AI 生成的非官方示意圖；Steam Controller 2 圖由使用者提供；來源見 trainer-art/provenance.json） | 本工具製作 | 隨本工具 |
 | NumPy（修改器找數值用） | https://numpy.org | BSD-3-Clause（見 _internal/numpy-*.dist-info/licenses） |
 | Noto Sans TC 字型（fonts/NotoSansTC-VF.ttf，2.004 版，未修改；Big Picture 介面用，沒裝的電腦會自動裝到目前使用者） | Adobe／Google（Source Han Sans／Noto CJK）https://github.com/notofonts/noto-cjk | SIL Open Font License 1.1（見 fonts/OFL.txt） |
+| AURORA 的 Rust 元件：aurora-app.exe（大圖模式）、aurora-dlboost.exe（下載加速提權小幫手）、_internal/aurora_core.pyd（手把、掃描、記憶體搜尋等核心） | 本工具製作（原始碼在本工具倉庫 rust/） | 隨本工具；使用的第三方 Rust 套件（egui／eframe、wgpu、windows-rs、PyO3 等 178 個）授權全文見 Licenses/Rust-third-party-licenses.txt（含各套件的 LICENSE／NOTICE、著作權人與來源；egui 內建字型的 OFL／Ubuntu Font License 也在內） |
+| 大圖模式開機影片（intro/，由使用者以 PixVerse 製作的影片轉成畫格與音效；來源見 intro/intro.json） | 使用者提供 | 隨本工具 |
+| 介面背景圖（ui-art/，本工具以程式產生；來源見 ui-art/provenance.json）與 Steam 圖示（steam-art/，來源見 steam-art/art.json） | 本工具製作 | 隨本工具 |
 
 授權不明的元件由發行者自行承擔風險保留，若權利人要求會移除。
 
@@ -39,6 +42,10 @@
 權重必須用你自己的 NVIDIA nvngx_dlssnr.dll（支援 DLSS 5 的遊戲內附）轉換。請在工具右上方按「設定 DLSS5」，按「下載 Daniel 安裝程式」
 從他的官方 GitHub 下載到「下載」資料夾，工具偵測到後會自動完成安裝與匯入（會自動搜尋你電腦裡的 nvngx_dlssnr.dll）。
 未設定前，工具照樣能安裝 FSR 4.1.1 與補幀。
+
+## Rust 元件與退回
+- 大圖模式預設用新版（Rust，aurora-app.exe）；沒有在 40 秒內出現畫面就自動改用舊版並說明原因。想一直用舊版：桌面版 ☰ 選單 →「大圖模式：新版」按一下切成舊版（會記住）。
+- 環境變數 AURORA_NO_RUST=1：只讓 aurora_core.pyd 的核心（手把、遊戲庫掃描、記憶體搜尋、下載、風靈月影與 SCSKiller 的部分）改回 Python 舊實作；不影響大圖模式選哪一版，也不影響下載加速的提權小幫手（aurora-dlboost.exe）。
 
 ## 更新
 工具啟動時會檢查 GitHub 上的新版本（https://github.com/copy1857/OptiScaler-OneClick-8060S/releases），有新版會在右上角出現「有新版本」，按下後下載差異更新並自動重新啟動。
